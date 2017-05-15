@@ -1,4 +1,3 @@
-#!/bin/bash
 ########################################################################
 #@file           : simple_arithmetic_operation.py
 #@Brief          :write a program for simple arithmetic operations like
