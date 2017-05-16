@@ -1,2 +1,2 @@
-#ABOUT 
-#This repository having simple exercise to practice python. 
+# ABOUT 
+This repository having simple exercise to practice python. 
