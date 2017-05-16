@@ -1,10 +1,11 @@
-#!/usr/bin/python
-###########################################################################
+"""
 #@file         :data_type_conversion
 #@Brief        : Get the input from user and convert it into different data
 #                types and print it
 #@Authour       :NithyaRaman
-###########################################################################
+
+"""
+
 float_num=float(raw_input("enter any float="))
 print"this float can convert as int %d"%(int(float_num)) 
 int_num=int(raw_input("enter any integer="))
