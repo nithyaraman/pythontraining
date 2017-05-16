@@ -1,0 +1,18 @@
+CHAPTER1
+======
+
+1.Simple_arithmatic_program
+----------------------------	
+
+----
+Basic Arithmatic operation like addtion,subtraction,multiplication 
+division can implement using this code and getting input from the user. 
+----
+
+
+[source,python]
+----
+include::../src/simple_arithmatic_program.py[]
+----
+
+
