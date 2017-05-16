@@ -1,9 +1,10 @@
-########################################################################
+"""
 #@file           : simple_arithmetic_operation.py
 #@Brief          :write a program for simple arithmetic operations like
 #                  add,subtraction,multiplication,division
 #@Authour        :Nithyaraman
-#########################################################################    
+
+"""
 print "Basic arithmatic operation between two numbers"
 n1=float(raw_input("enter first number="))
 n2=float(raw_input("enter second number="))
