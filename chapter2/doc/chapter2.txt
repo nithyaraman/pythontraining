@@ -54,3 +54,33 @@ nithya@VVDN:~/pythontraining/chapter2/src$
 ----
 
 
+3.Print_1to10
+--------------
+
+----
+code to print 1 to 10 using while loop
+----
+
+
+[source,python]
+----
+include::../src/print_1to10.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter2/src$ python print_1to10.py
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+nithya@VVDN:~/pythontraining/chapter2/src$ 
+----
