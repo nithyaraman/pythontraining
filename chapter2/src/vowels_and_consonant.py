@@ -1,8 +1,8 @@
-#"""
-#@File         :vowels_and-consonant
-#@Brief        :write the program to print vowels and consonant letters from#               'gnulinux'
-#@Author       :NithyaRaman
-#"""
+"""
+@File         :vowels_and-consonant
+@Brief        :write the program to print vowels and consonant letters from gulinux'
+@Author       :NithyaRaman
+"""
 vowel=['a','e','i','o','u']
 vowel_list=[]
 consonant_list=[]

@@ -26,3 +26,31 @@ vowel letters in gnuliunx
 nithya@VVDN:~/pythontraining/chapter2/src$ 
 ----
 
+
+2.print_letter
+--------------
+
+----
+code to print letters from 'gnu-linux is rule the world now'
+----
+
+
+[source,python]
+----
+include::../src/print_letter.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter2/src$ python print_letter.py 
+length of full string 31
+number of letter 25
+number of space 5
+number of spl_chac 1
+letter which is inside is gnulinuxisruletheworldnow
+nithya@VVDN:~/pythontraining/chapter2/src$ 
+----
+
+
