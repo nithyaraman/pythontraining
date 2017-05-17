@@ -15,4 +15,82 @@ division can implement using this code and getting input from the user.
 include::../src/simple_arithmatic_program.py[]
 ----
 
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter1/src$ python simple_arithmatic_program.py 
+Basic arithmatic operation between two numbers
+enter first number=22
+enter second number=7
+addition of this two number =29.0
+subtraction of this two numbers= 15.0
+multiplication of this two number=154
+division of this two number= 3.14285714286
+nithya@VVDN:~/pythontraining/chapter1/src$ 
+----
+
+
+2.find_data_type
+----------------
+
+----
+code to find the data type of the given input
+----
+
+
+[source,python]
+----
+include::../src/find_data_type.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter1/src$ python find_data_type.py 
+To find data type
+please enter something: 'nithya'
+<type 'str'>
+please enter something: 123
+<type 'int'>
+please enter something: 3.14
+<type 'float'>
+please enter something: True
+<type 'bool'>
+nithya@VVDN:~/pythontraining/chapter1/src$ 
+----
+
+
+3.Data_type_conversion
+----------------------
+
+----
+This code used to convert one data type into another data type by getting the input from user
+----
+
+
+[source,python]
+----
+include::../src/data_type_conversion.py[]
+----
+
+output
+~~~~~~
+
+----
+thya@VVDN:~/pythontraining/chapter1/src$ python data_type_conversion.py 
+enter any float=3.14
+this float can convert as int 3
+enter any integer=22
+this int convert as float 22.000000
+enter your name=nithya
+name is a string ,it can convert as list
+['n', 'i', 't', 'h', 'y', 'a']
+list can convert as tuple
+('n', 'i', 't', 'h', 'y', 'a')
+again this tuple can convert as string
+nithya
+nithya@VVDN:~/pythontraining/chapter1/src$ 
+----
 

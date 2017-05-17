@@ -764,13 +764,125 @@ n2<span style="color: #990000">=</span><span style="font-weight: bold"><span sty
 <span style="font-weight: bold"><span style="color: #0000FF">print</span></span> <span style="color: #FF0000">"multiplication of this two number=%d"</span><span style="color: #990000">%(</span>n1<span style="color: #990000">*</span>n2<span style="color: #990000">)</span>
 <span style="font-weight: bold"><span style="color: #0000FF">print</span></span> <span style="color: #FF0000">"division of this two number="</span><span style="color: #990000">,(</span><span style="font-weight: bold"><span style="color: #000000">float</span></span><span style="color: #990000">(</span>n1<span style="color: #990000">/</span>n2<span style="color: #990000">))</span>
 </tt></pre></div></div>
+<div class="sect2">
+<h3 id="_output">output</h3>
+<div class="listingblock">
+<div class="content">
+<pre><code>nithya@VVDN:~/pythontraining/chapter1/src$ python simple_arithmatic_program.py
+Basic arithmatic operation between two numbers
+enter first number=22
+enter second number=7
+addition of this two number =29.0
+subtraction of this two numbers= 15.0
+multiplication of this two number=154
+division of this two number= 3.14285714286
+nithya@VVDN:~/pythontraining/chapter1/src$</code></pre>
+</div></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_2_find_data_type">2.find_data_type</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre><code>code to find the data type of the given input</code></pre>
+</div></div>
+<div class="listingblock">
+<div class="content"><!-- Generator: GNU source-highlight 3.1.6
+by Lorenzo Bettini
+http://www.lorenzobettini.it
+http://www.gnu.org/software/src-highlite -->
+<pre><tt><span style="font-style: italic"><span style="color: #9A1900">"""</span></span>
+<span style="font-style: italic"><span style="color: #9A1900">#@File             :find_data_type</span></span>
+<span style="font-style: italic"><span style="color: #9A1900">#@Brief            :find given input as string|integer|float using type()</span></span>
+<span style="font-style: italic"><span style="color: #9A1900">#@Authour          :NithyaRaman</span></span>
+
+<span style="font-style: italic"><span style="color: #9A1900">"""</span></span>
+<span style="font-weight: bold"><span style="color: #0000FF">print</span></span><span style="color: #FF0000">"To find data type"</span>
+<span style="font-weight: bold"><span style="color: #0000FF">for</span></span> a <span style="font-weight: bold"><span style="color: #0000FF">in</span></span> <span style="color: #FF0000">'1234'</span> <span style="color: #990000">:</span>
+   data<span style="color: #990000">=</span><span style="font-weight: bold"><span style="color: #000000">input</span></span><span style="color: #990000">(</span><span style="color: #FF0000">"please enter something: "</span><span style="color: #990000">)</span>
+   <span style="font-weight: bold"><span style="color: #0000FF">print</span></span> <span style="color: #990000">(</span><span style="font-weight: bold"><span style="color: #000000">type</span></span><span style="color: #990000">(</span>data<span style="color: #990000">))</span></tt></pre></div></div>
+<div class="sect2">
+<h3 id="_output_2">output</h3>
+<div class="listingblock">
+<div class="content">
+<pre><code>nithya@VVDN:~/pythontraining/chapter1/src$ python find_data_type.py
+To find data type
+please enter something: 'nithya'
+&lt;type 'str'&gt;
+please enter something: 123
+&lt;type 'int'&gt;
+please enter something: 3.14
+&lt;type 'float'&gt;
+please enter something: True
+&lt;type 'bool'&gt;
+nithya@VVDN:~/pythontraining/chapter1/src$</code></pre>
+</div></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_3_data_type_conversion">3.Data_type_conversion</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre><code>This code used to convert one data type into another data type by getting the input from user</code></pre>
+</div></div>
+<div class="listingblock">
+<div class="content"><!-- Generator: GNU source-highlight 3.1.6
+by Lorenzo Bettini
+http://www.lorenzobettini.it
+http://www.gnu.org/software/src-highlite -->
+<pre><tt><span style="font-style: italic"><span style="color: #9A1900">"""</span></span>
+<span style="font-style: italic"><span style="color: #9A1900">#@file         :data_type_conversion</span></span>
+<span style="font-style: italic"><span style="color: #9A1900">#@Brief        : Get the input from user and convert it into different data</span></span>
+<span style="font-style: italic"><span style="color: #9A1900">#                types and print it</span></span>
+<span style="font-style: italic"><span style="color: #9A1900">#@Authour       :NithyaRaman</span></span>
+
+<span style="font-style: italic"><span style="color: #9A1900">"""</span></span>
+
+float_num<span style="color: #990000">=</span><span style="font-weight: bold"><span style="color: #000000">float</span></span><span style="color: #990000">(</span><span style="font-weight: bold"><span style="color: #000000">raw_input</span></span><span style="color: #990000">(</span><span style="color: #FF0000">"enter any float="</span><span style="color: #990000">))</span>
+<span style="font-weight: bold"><span style="color: #0000FF">print</span></span><span style="color: #FF0000">"this float can convert as int %d"</span><span style="color: #990000">%(</span><span style="font-weight: bold"><span style="color: #000000">int</span></span><span style="color: #990000">(</span>float_num<span style="color: #990000">))</span>
+int_num<span style="color: #990000">=</span><span style="font-weight: bold"><span style="color: #000000">int</span></span><span style="color: #990000">(</span><span style="font-weight: bold"><span style="color: #000000">raw_input</span></span><span style="color: #990000">(</span><span style="color: #FF0000">"enter any integer="</span><span style="color: #990000">))</span>
+<span style="font-weight: bold"><span style="color: #0000FF">print</span></span><span style="color: #FF0000">"this int convert as float %f"</span><span style="color: #990000">%(</span><span style="font-weight: bold"><span style="color: #000000">float</span></span><span style="color: #990000">(</span>int_num<span style="color: #990000">))</span>
+name<span style="color: #990000">=</span><span style="font-weight: bold"><span style="color: #000000">raw_input</span></span><span style="color: #990000">(</span><span style="color: #FF0000">"enter your name="</span><span style="color: #990000">)</span>
+<span style="font-weight: bold"><span style="color: #0000FF">print</span></span><span style="color: #FF0000">"name is a string ,it can convert as list"</span>
+name_as_list<span style="color: #990000">=</span><span style="font-weight: bold"><span style="color: #000000">list</span></span><span style="color: #990000">(</span>name<span style="color: #990000">)</span>
+<span style="font-weight: bold"><span style="color: #0000FF">print</span></span> name_as_list
+<span style="font-weight: bold"><span style="color: #0000FF">print</span></span><span style="color: #FF0000">"list can convert as tuple"</span>
+list_as_tuple<span style="color: #990000">=</span><span style="font-weight: bold"><span style="color: #000000">tuple</span></span><span style="color: #990000">(</span>name_as_list<span style="color: #990000">)</span>
+<span style="font-weight: bold"><span style="color: #0000FF">print</span></span> list_as_tuple
+<span style="font-weight: bold"><span style="color: #0000FF">print</span></span><span style="color: #FF0000">"again this tuple can convert as string"</span>
+name_str<span style="color: #990000">=</span><span style="color: #FF0000">''</span><span style="color: #990000">.</span><span style="font-weight: bold"><span style="color: #000000">join</span></span><span style="color: #990000">(</span>list_as_tuple<span style="color: #990000">)</span>
+<span style="font-weight: bold"><span style="color: #0000FF">print</span></span> name_str
+</tt></pre></div></div>
+<div class="sect2">
+<h3 id="_output_3">output</h3>
+<div class="listingblock">
+<div class="content">
+<pre><code>thya@VVDN:~/pythontraining/chapter1/src$ python data_type_conversion.py
+enter any float=3.14
+this float can convert as int 3
+enter any integer=22
+this int convert as float 22.000000
+enter your name=nithya
+name is a string ,it can convert as list
+['n', 'i', 't', 'h', 'y', 'a']
+list can convert as tuple
+('n', 'i', 't', 'h', 'y', 'a')
+again this tuple can convert as string
+nithya
+nithya@VVDN:~/pythontraining/chapter1/src$</code></pre>
+</div></div>
+</div>
 </div>
 </div>
 </div>
 <div id="footnotes"><hr /></div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2017-05-16 19:32:16 IST
+Last updated 2017-05-17 11:46:32 IST
 </div>
 </div>
 </body>
