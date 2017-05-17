@@ -736,15 +736,52 @@ asciidoc.install();
 <h1>CHAPTER3</h1>
 </div>
 <div id="content">
-<div id="preamble">
+<div class="sect1">
+<h2 id="_1_n_l_in_gnu">1.n,l_in_gnu</h2>
 <div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre><code>code to check 'n' and 'l' is available or not in 'gnu'</code></pre>
+</div></div>
+<div class="listingblock">
+<div class="content"><!-- Generator: GNU source-highlight 3.1.6
+by Lorenzo Bettini
+http://www.lorenzobettini.it
+http://www.gnu.org/software/src-highlite -->
+<pre><tt><span style="font-style: italic"><span style="color: #9A1900">"""</span></span>
+<span style="font-style: italic"><span style="color: #9A1900">@file         : n,l_in_gnu.py</span></span>
+<span style="font-style: italic"><span style="color: #9A1900">@Brief        : check the 'n' and 'l' is available or not in 'gnu'</span></span>
+<span style="font-style: italic"><span style="color: #9A1900">@authour      : NithyaRaman</span></span>
+<span style="font-style: italic"><span style="color: #9A1900">"""</span></span>
+word<span style="color: #990000">=</span><span style="color: #FF0000">"gnu"</span>
+n_count<span style="color: #990000">=</span>word<span style="color: #990000">.</span><span style="font-weight: bold"><span style="color: #000000">count</span></span><span style="color: #990000">(</span><span style="color: #FF0000">'n'</span><span style="color: #990000">,</span><span style="color: #993399">0</span><span style="color: #990000">,</span><span style="font-weight: bold"><span style="color: #000000">len</span></span><span style="color: #990000">(</span>word<span style="color: #990000">))</span>
+l_count<span style="color: #990000">=</span>word<span style="color: #990000">.</span><span style="font-weight: bold"><span style="color: #000000">count</span></span><span style="color: #990000">(</span><span style="color: #FF0000">'l'</span><span style="color: #990000">,</span><span style="color: #993399">0</span><span style="color: #990000">,</span><span style="font-weight: bold"><span style="color: #000000">len</span></span><span style="color: #990000">(</span>word<span style="color: #990000">))</span>
+<span style="font-weight: bold"><span style="color: #0000FF">if</span></span> n_count <span style="font-weight: bold"><span style="color: #0000FF">is</span></span> <span style="color: #993399">0</span><span style="color: #990000">:</span>
+   <span style="font-weight: bold"><span style="color: #0000FF">print</span></span> <span style="color: #FF0000">"n is not available"</span>
+<span style="font-weight: bold"><span style="color: #0000FF">else</span></span><span style="color: #990000">:</span>
+   <span style="font-weight: bold"><span style="color: #0000FF">print</span></span> <span style="color: #FF0000">"n is available %d time"</span><span style="color: #990000">%</span>n_count
+<span style="font-weight: bold"><span style="color: #0000FF">if</span></span> l_count <span style="font-weight: bold"><span style="color: #0000FF">is</span></span> <span style="color: #993399">0</span><span style="color: #990000">:</span>
+   <span style="font-weight: bold"><span style="color: #0000FF">print</span></span> <span style="color: #FF0000">"l is not available"</span>
+<span style="font-weight: bold"><span style="color: #0000FF">else</span></span><span style="color: #990000">:</span>
+   <span style="font-weight: bold"><span style="color: #0000FF">print</span></span> <span style="color: #FF0000">"l is available %d time"</span><span style="color: #990000">%</span>l_count
+</tt></pre></div></div>
+<div class="sect2">
+<h3 id="_output">output</h3>
+<div class="listingblock">
+<div class="content">
+<pre><code>nithya@VVDN:~/pythontraining/chapter3/src$ python n,l_in_gnu.py
+n is available 1 time
+l is not available
+nithya@VVDN:~/pythontraining/chapter3/src$</code></pre>
+</div></div>
+</div>
 </div>
 </div>
 </div>
 <div id="footnotes"><hr /></div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2017-05-17 15:23:09 IST
+Last updated 2017-05-17 16:53:27 IST
 </div>
 </div>
 </body>

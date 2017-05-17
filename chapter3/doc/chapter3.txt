@@ -1,4 +1,25 @@
 CHAPTER3
 ========
 
+1.n,l_in_gnu
+------------
 
+----
+code to check 'n' and 'l' is available or not in 'gnu'
+----
+
+
+[source,python]
+----
+include::../src/n,l_in_gnu.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter3/src$ python n,l_in_gnu.py
+n is available 1 time
+l is not available
+nithya@VVDN:~/pythontraining/chapter3/src$ 
+-----
