@@ -870,11 +870,61 @@ nithya@VVDN:~/pythontraining/chapter2/src$</code></pre>
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_4_loop_break_continue">4.Loop_break_continue</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre><code>code to break the loop by giving 'n' or 'N' and to continue loop by giving 'y' or 'Y'</code></pre>
+</div></div>
+<div class="listingblock">
+<div class="content"><!-- Generator: GNU source-highlight 3.1.6
+by Lorenzo Bettini
+http://www.lorenzobettini.it
+http://www.gnu.org/software/src-highlite -->
+<pre><tt><span style="font-style: italic"><span style="color: #9A1900">"""</span></span>
+<span style="font-style: italic"><span style="color: #9A1900">@File       : loop_break_continue</span></span>
+<span style="font-style: italic"><span style="color: #9A1900">@Brief      : Write the program to break the loop if user give 'n' as input, if 'y' continue</span></span>
+<span style="font-style: italic"><span style="color: #9A1900">@Authour    : NithyaRaman</span></span>
+<span style="font-style: italic"><span style="color: #9A1900">"""</span></span>
+<span style="font-weight: bold"><span style="color: #0000FF">print</span></span> <span style="color: #FF0000">"loop to print 1 to 10"</span>
+count<span style="color: #990000">=</span><span style="color: #993399">1</span>
+yes<span style="color: #990000">=[</span><span style="color: #FF0000">'y'</span><span style="color: #990000">,</span><span style="color: #FF0000">'Y'</span><span style="color: #990000">]</span>
+no<span style="color: #990000">=[</span><span style="color: #FF0000">'n'</span><span style="color: #990000">,</span><span style="color: #FF0000">'N'</span><span style="color: #990000">]</span>
+<span style="font-weight: bold"><span style="color: #0000FF">while</span></span> <span style="color: #990000">(</span>count<span style="color: #990000">&lt;</span><span style="color: #993399">11</span><span style="color: #990000">):</span>
+  <span style="font-weight: bold"><span style="color: #0000FF">print</span></span> count
+  count<span style="color: #990000">+=</span><span style="color: #993399">1</span>
+  letter<span style="color: #990000">=</span><span style="font-weight: bold"><span style="color: #000000">raw_input</span></span><span style="color: #990000">(</span><span style="color: #FF0000">"do you want to continue(y/n):"</span><span style="color: #990000">)</span>
+  <span style="font-weight: bold"><span style="color: #0000FF">if</span></span> letter <span style="font-weight: bold"><span style="color: #0000FF">in</span></span> yes<span style="color: #990000">:</span>
+     <span style="font-weight: bold"><span style="color: #0000FF">continue</span></span>
+  <span style="font-weight: bold"><span style="color: #0000FF">elif</span></span> letter <span style="font-weight: bold"><span style="color: #0000FF">in</span></span> no<span style="color: #990000">:</span>
+     <span style="font-weight: bold"><span style="color: #0000FF">break</span></span></tt></pre></div></div>
+<div class="sect2">
+<h3 id="_output_4">output</h3>
+<div class="listingblock">
+<div class="content">
+<pre><code>nithya@VVDN:~/pythontraining/chapter2/src$ python loop_break_continue.py
+loop to print 1 to 10
+1
+do you want to continue(y/n):y
+2
+do you want to continue(y/n):Y
+3
+do you want to continue(y/n):N
+nithya@VVDN:~/pythontraining/chapter2/src$ python loop_break_continue.py
+loop to print 1 to 10
+1
+do you want to continue(y/n):n
+nithya@VVDN:~/pythontraining/chapter2/src$</code></pre>
+</div></div>
+</div>
+</div>
+</div>
 </div>
 <div id="footnotes"><hr /></div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2017-05-17 14:06:18 IST
+Last updated 2017-05-17 15:13:32 IST
 </div>
 </div>
 </body>

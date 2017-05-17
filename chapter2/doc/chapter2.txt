@@ -84,3 +84,36 @@ nithya@VVDN:~/pythontraining/chapter2/src$ python print_1to10.py
 10
 nithya@VVDN:~/pythontraining/chapter2/src$ 
 ----
+
+
+4.Loop_break_continue
+----------------------
+
+----
+code to break the loop by giving 'n' or 'N' and to continue loop by giving 'y' or 'Y'
+----
+
+
+[source,python]
+----
+include::../src/loop_break_continue.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter2/src$ python loop_break_continue.py
+loop to print 1 to 10
+1
+do you want to continue(y/n):y
+2
+do you want to continue(y/n):Y
+3
+do you want to continue(y/n):N
+nithya@VVDN:~/pythontraining/chapter2/src$ python loop_break_continue.py
+loop to print 1 to 10
+1
+do you want to continue(y/n):n
+nithya@VVDN:~/pythontraining/chapter2/src$ 
+----
