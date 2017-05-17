@@ -4,9 +4,13 @@
 #@Author       :NithyaRaman
 #"""
 vowel=['a','e','i','o','u']
+vowel_list=[]
+consonant_list=[]
 for var in 'gnulinux':
    if var in vowel:
-      print "%c=vowel"%var
+      vowel_list.append(var)
    else: 
-      print "%c=consonant"%var  
-    
+      consonant_list.append(var) 
+print "cosonant letters in gnuliunx\n",consonant_list 
+print "vowel letters in gnuliunx \n",vowel_list 
+

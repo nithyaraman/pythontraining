@@ -1,3 +1,28 @@
 CHAPTER2
 ========
 
+1.vowel_and_consonant
+---------------------
+
+----
+code to seperate vowels and consonant letters from the word gnulinux
+----
+
+
+[source,python]
+----
+include::../src/vowels_and_consonant.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter2/src$ python vowels_and_consonant.py 
+cosonant letters in gnuliunx
+['g', 'n', 'l', 'n', 'x']
+vowel letters in gnuliunx 
+['u', 'i', 'u']
+nithya@VVDN:~/pythontraining/chapter2/src$ 
+----
+
