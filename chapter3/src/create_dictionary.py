@@ -3,12 +3,13 @@
 @Brief    : Create the dictionary like {'one':1, ...... 'ten':10} and print it
 @Authour  : NithyaRaman
 """
-list1 = ["one","two","three","four","five","six","seven","eight","nine","ten"]
-list2=['1','2','3','4','5','6','7','8','9','10']
-dict1={}
-dict1=dict(zip(list1,list2))
+list1 = ["one", "two", "three", "four", "five",
+         "six", "seven", "eight", "nine", "ten"]
+list2 = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+dict1 = {}
+dict1 = dict(zip(list1, list2))
 print dict1
-#for (key,value) in (zip(list1, list2)):
+# for (key,value) in (zip(list1, list2)):
 #   d=dict(key,value)
-#d = dict((key, value) for (key, value) in zip(key_list, value_list))
-#print d
+# d = dict((key, value) for (key, value) in zip(key_list, value_list))
+# print d
