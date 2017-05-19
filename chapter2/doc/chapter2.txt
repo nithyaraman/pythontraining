@@ -1,0 +1,119 @@
+CHAPTER2
+========
+
+1.vowel_and_consonant
+---------------------
+
+----
+code to seperate vowels and consonant letters from the word gnulinux
+----
+
+
+[source,python]
+----
+include::../src/vowels_and_consonant.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter2/src$ python vowels_and_consonant.py 
+cosonant letters in gnuliunx
+['g', 'n', 'l', 'n', 'x']
+vowel letters in gnuliunx 
+['u', 'i', 'u']
+nithya@VVDN:~/pythontraining/chapter2/src$ 
+----
+
+
+2.print_letter
+--------------
+
+----
+code to print letters from 'gnu-linux is rule the world now'
+----
+
+
+[source,python]
+----
+include::../src/print_letter.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter2/src$ python print_letter.py 
+length of full string 31
+number of letter 25
+number of space 5
+number of spl_chac 1
+letter which is inside is gnulinuxisruletheworldnow
+nithya@VVDN:~/pythontraining/chapter2/src$ 
+----
+
+
+3.Print_1to10
+--------------
+
+----
+code to print 1 to 10 using while loop
+----
+
+
+[source,python]
+----
+include::../src/print_1to10.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter2/src$ python print_1to10.py
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+nithya@VVDN:~/pythontraining/chapter2/src$ 
+----
+
+
+4.Loop_break_continue
+----------------------
+
+----
+code to break the loop by giving 'n' or 'N' and to continue loop by giving 'y' or 'Y'
+----
+
+
+[source,python]
+----
+include::../src/loop_break_continue.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter2/src$ python loop_break_continue.py
+loop to print 1 to 10
+1
+do you want to continue(y/n):y
+2
+do you want to continue(y/n):Y
+3
+do you want to continue(y/n):N
+nithya@VVDN:~/pythontraining/chapter2/src$ python loop_break_continue.py
+loop to print 1 to 10
+1
+do you want to continue(y/n):n
+nithya@VVDN:~/pythontraining/chapter2/src$ 
+----
