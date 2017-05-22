@@ -1,8 +1,5 @@
-"""
-@file    : double_char.py
-@Brief   : Given a string, return a string where for every char in the original, there are two chars
-@Authour : NithyaRaman
-"""
+""" Given a string, return a string where for every 
+char in the original, there are two chars"""
 
 
 def double_str(str1):

@@ -1,8 +1,6 @@
-"""
-@File    : count_code.py
-@Brief   :  Return the number of times that the string "code" appears anywhere in the given string, except we'll accept any letter for the 'd', so "cope" and "cooe" count.
-(i@Authour : NithyaRaman
-"""
+"""Return the number of times that the string "code"appears 
+anywhere inthe given string, except we'll accept any letter
+ for the 'd', so "cope" and "cooe" count."""
 
 
 def find_word(str1):
