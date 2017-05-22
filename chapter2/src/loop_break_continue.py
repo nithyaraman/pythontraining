@@ -1,12 +1,13 @@
-"""
-@File       : loop_break_continue
-@Brief      : Write the program to break the loop if user give 'n' as input, if 'y' continue
-@Authour    : NithyaRaman
-"""
+"""  Write the program to break the loop if
+ user give 'n' as input, if 'y' continue """
+
+
 print "loop to print 1 to 10"
 count = 1
+
 yes = ['y', 'Y']
 no = ['n', 'N']
+
 while (count < 11):
     print count
     count += 1
