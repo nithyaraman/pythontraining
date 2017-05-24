@@ -4,21 +4,24 @@
 import matplotlib.pyplot as plt
 import os
 import numpy as np
+import count
+
 
 file_list = []
 line_list = []
 
+
 for filename in os.listdir("filesdir"):
     file_list.append(filename)
 
+
+#use count module to count lines in files
     filepath = "/home/nithya/pythontraining/chapter5/src/filesdir/" + filename
     fo = open(filepath, 'r+')
-
-    num_line = 0
-
-    for i in open(filepath):
-        num_line += 1
+    num_line=count.countline(filepath)
     line_list.append(num_line)
+
+
 
 xaxis = file_list
 x_pos = np.arange(len(xaxis))

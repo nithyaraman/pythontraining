@@ -15,13 +15,18 @@ fo.write(lines)
 fo.close()
 
 
-# count number of lines
-num_lines = 0
+# funtion count number of lines
+def countline(filename):
+    num_line=0
+    with open (filename,'r') as files:
+        for i in files:
+           num_line+=1
+    return num_line
 
-for i in open("newfile.txt"):
-    num_lines += 1
 
-print "number of line is :", num_lines
+#function call to count line
+numline=countline("newfile.txt")
+print "number of line is :", numline
 
 
 # count number of words and letters
