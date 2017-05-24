@@ -4,10 +4,10 @@
 import time
 timestr = time.strftime("%Y%m%d-%H%M%S")
 
-fo=open("log-"+timestr+".log",'w+')
+fo = open("log-" + timestr + ".log", 'w+')
 
 with open('/var/log/dmesg') as logf:
-    log=logf.read()
+    log = logf.read()
 
 for info in log:
-     fo.write(info)
+    fo.write(info)
