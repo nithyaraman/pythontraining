@@ -1,2 +1,48 @@
 CHAPTER4
 ========
+
+1.count_code.py
+---------------
+
+----
+count code and the letter which have the same sequence except 'd'
+----
+
+[source,python]
+----
+include::../src/count_code.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter4/src$ python count_code.py 
+enter string:codesdfcoze
+number of sub string is 2
+nithya@VVDN:~/pythontraining/chapter4/src$ 
+----
+
+2.double_char.py
+----------------
+
+----
+double the character of given string
+----
+
+[source,python]
+----
+include::../src/double_char.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter4/src$ python double_char.py 
+enter your string:python
+ppyytthhoonn
+nithya@VVDN:~/pythontraining/chapter4/src$ 
+----
+
+
