@@ -108,7 +108,7 @@ converting list into string
 
 [source,python]
 ----
-include::..src/covert_list_string.py[]
+include::../src/covert_list_string.py[]
 ----
 
 output
@@ -162,6 +162,355 @@ output
 ~~~~~~
 
 ----
+nithya@VVDN:~/pythontraining/chapter3/src$ python create_tuple.py 
+empty tuple created ()
+enter how many element need to add2
+enter element1
+enter element2
+('1', '2')
+nithya@VVDN:~/pythontraining/chapter3/src$ 
+----
 
+7. dictionary_function.py
+-------------------------
+
+----
+practice dictionary functions
+----
+
+
+[source,python]
+----
+include::../src/dictionary_function.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter3/src$ python dictionary_function.py 
+
+1.clear()
+this function remove all values of dictionary
+dictionary has = {'1': 'one', '3': 'three', '2': 'two'}
+by clear the elements all entries can remove
+{}
+
+
+2.get()
+dictionary has = {1: 'one', 2: 'two', 3: 'three'}
+select one key in dictionary:1
+one
+
+
+3.has_key()
+enter key to know is there or not
+enter key:1
+True
+
+
+4.items()
+return list of dictionary
+[(1, 'one'), (2, 'two'), (3, 'three')]
+
+
+5.keys()
+keys in dictionary
+[1, 2, 3]
+
+
+6.values()
+values in dictionary
+['one', 'two', 'three']
+
+
+7.pop()
+enter key which you want to pop:3
+{1: 'one', 2: 'two'}
+
+
+8.popitem()
+{2: 'two'}
+
+
+9.update()
+{'200': 'twohundred', '100': 'hundred'}
+dictionary updated with above
+{'200': 'twohundred', 2: 'two', '100': 'hundred'}
+nithya@VVDN:~/pythontraining/chapter3/src$ 
+----
+
+8.list_function.py
+------------------
+
+----
+practice list function
+----
+
+[source,python]
+----
+include::../src/list_function.py[]
+----
+
+output
+~~~~~~
+----
+nithya@VVDN:~/pythontraining/chapter3/src$ python list_function.py 
+####Program using list function####
+1.append()
+['1', '2', '3']
+how many elements to appen1
+enter element:4
+['1', '2', '3', '4']
+list is appended successfull
+
+
+2.count()
+from the about list which you need to count?3
+it is present in 1 times
+no. of object counted successfully
+
+
+3.extend()
+how many elements to expand1
+enter element:1
+['1', '2', '3', '4', '1']
+list is extended successfully
+
+
+3.index()
+which element position want to know in about list3
+element located on position 2
+
+
+4.insert()
+enter the element you want to insert:9
+enter the position you want to insert:1
+['1', '9', '2', '3', '4', '1']
+element is inserted successfully
+
+5.pop
+how many element you need to pop1
+['1', '9', '2', '3', '4']
+successfully 1 element poped
+
+
+6.remove()
+above list which you want to remove2
+object successfully removed
+list= ['1', '9', '3', '4']
+
+
+7.revers
+['4', '3', '9', '1']
+list reversed successfully
+
+
+8.sort
+['1', '3', '4', '9']
+list sorted successfully
+nithya@VVDN:~/pythontraining/chapter3/src$
+----
+
+9.list_to_string.py
+-------------------
+
+----
+converting list into string
+----
+
+[source,python]
+----
+include::../src/list_to_string.py[]
+----
+
+output
+~~~~~~
+----
+nithya@VVDN:~/pythontraining/chapter3/src$ python list_to_string.py 
+empty list create []
+enter how many elements need to insert in list2
+enter element :nithya
+enter element :raman
+list are = ['nithya', 'raman']
+by converting this list as string we get
+nithyaraman
+nithya@VVDN:~/pythontraining/chapter3/src$ 
+----
+
+10.negative_indexing.py
+-----------------------
+
+----
+negative indexing using slicing method
+----
+
+[source,python]
+----
+include::../src/negative_indexing.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter3/src$ python negative_indexing.py 
+['0', '1', '3', '4', '5', '6', '7', '8', '9']
+[::-1]= ['9', '8', '7', '6', '5', '4', '3', '1', '0']
+[::-2]= ['9', '7', '5', '3', '0']
+[::-3]= ['9', '6', '3']
+[-1:-4:-1]= ['9', '8', '7']
+[-3:-10:-1]= ['7', '6', '5', '4', '3', '1', '0']
+nithya@VVDN:~/pythontraining/chapter3/src$ 
+----
+
+
+11.odd_and_even.py 
+------------------
+
+----
+finding odd and even number in given list.
+----
+
+[source,python]
+----
+include::../src/odd_and_even.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter3/src$ python odd_and_even.py 
+given list is = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+even number from the list = [2, 4, 6, 8]
+odd number from the list = [1, 3, 5, 7, 9]
+nithya@VVDN:~/pythontraining/chapter3/src$ 
+----
+
+12.odd_position_x.py
+--------------------
+
+----
+odd position fill with x
+----
+
+[source,python]
+----
+include::../src/odd_and_even.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter3/src$ python odd_position_x.py 
+enter some word:vvdn  
+['v', 'x', 'd', 'x']
+nithya@VVDN:~/pythontraining/chapter3/src$ 
+----
+
+13.range_xrange_diff.py
+-----------------------
+
+----
+difference between range and xrange
+----
+
+[source,python]
+----
+include::../src/range_xrange_diff.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter3/src$ python range_xrange_diff.py 
+created xrange
+0
+1
+2
+3
+4
+for xrange (0-100)
+xrange(100)
+for range(0-100)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+nithya@VVDN:~/pythontraining/chapter3/src$ 
+----
+
+14.remove_duplicate.py
+----------------------
+
+----
+removing duplicates
+----
+
+[source,python]
+----
+include::../src/remove_duplicate.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter3/src$ python remove_duplicate.py 
+empty list created []
+enter number of element need to insert3
+enter element:1
+enter element:2
+enter element:1
+list = ['1', '2', '1']
+['1', '2']
+duplicates removed in list successfully
+nithya@VVDN:~/pythontraining/chapter3/src$ 
+----
+
+15.reverse_name.py
+------------------
+
+----
+reverse given string
+----
+
+[source,python]
+----
+include::../src/reverse_name.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter3/src$ python reverse_name.py 
+enter your name :nithya
+by reverse this name you get: ayhtin
+nithya@VVDN:~/pythontraining/chapter3/src$ 
+----
+
+16.set_func.py
+--------------
+
+----
+remove duplicates using set function
+----
+
+[source,python]
+----
+include::../src/set_func.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter3/src$ python set_func.py 
+consider list has= [1, 2, 3, 4, 1, 2, 5, 2, 12, 3, 1, 2]
+by give list to set function :
+set([1, 2, 3, 4, 5, 12])
+it remove duplicates
+nithya@VVDN:~/pythontraining/chapter3/src$ 
 ----
 
