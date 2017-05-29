@@ -23,3 +23,145 @@ n is available 1 time
 l is not available
 nithya@VVDN:~/pythontraining/chapter3/src$ 
 -----
+
+
+2.add_element_list
+------------------
+
+
+----
+creating empty list and adding element in that list.
+----
+
+
+[source,python]
+----
+inclued::../src/add_element_list.py[]
+----
+
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter3/src$ python add_element_list.py 
+empty list is created  []
+how many element you need to add2
+enter element:10
+enter element:20
+['10', '20']
+nithya@VVDN:~/pythontraining/chapter3/src$ 
+----
+
+
+3.add_remove_update_dict
+------------------------
+
+
+----
+creating dictionary,adding ,removing and updating element in that dictionary.
+----
+
+
+[source,python]
+----
+include::../src/add_remove_update_dict.py[]
+----
+
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter3/src$ python add_remove_update_dict.py 
+empty dictionary created {}
+
+
+1.add
+how many elements need to add :2
+enter value:one
+enter value:two
+{1: 'one', 2: 'two'}
+
+
+2.remove
+above which you want to remove
+enter any of above key:1
+{2: 'two'}
+
+
+3.update
+another dict= {200: 'two hundred', 100: 'hundred'}
+by update this with above dictionary
+{200: 'two hundred', 2: 'two', 100: 'hundred'}
+nithya@VVDN:~/pythontraining/chapter3/src$ 
+----
+
+
+4.covert_list_string.py  
+-----------------------
+
+
+----
+converting list into string
+----
+
+[source,python]
+----
+include::..src/covert_list_string.py[]
+----
+
+output
+~~~~~~
+
+
+----
+nithya@VVDN:~/pythontraining/chapter3/src$ python covert_list_string.py 
+['1', '2', '3', '4', '5', '6']
+By coverting this list as string= 123456
+nithya@VVDN:~/pythontraining/chapter3/src$ 
+----
+
+
+5. create_dictionary.py
+-----------------------
+
+----
+creating dictionary.
+----
+
+[source,python]
+----
+include::../src/create_dictionary.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter3/src$ python create_dictionary.py 
+{'seven': '7', 'ten': '10', 'nine': '9', 'six': '6', 'three': '3', 'two': '2', 'four': '4', 'five': '5', 'eight': '8', 'one': '1'}
+nithya@VVDN:~/pythontraining/chapter3/src$ 
+----
+
+
+6.create_tuple.py 
+-----------------
+
+----
+creating tuple.
+----
+
+
+[source,python]
+----
+include::../src/create_tuple.py[] 
+----
+
+output
+~~~~~~
+
+----
+
+----
+
