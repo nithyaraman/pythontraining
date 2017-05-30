@@ -18,13 +18,14 @@ output
 
 ----
 nithya@VVDN:~/pythontraining/chapter10/src$ python count_code_unittest.py -v
-enter string:python
-number of sub string is 0
-test_fail (__main__.count_code_test) ... ok
-test_pass (__main__.count_code_test) ... ok
+enter string:code
+1
+test_case1 (__main__.count_code_test) ... ok
+test_case2 (__main__.count_code_test) ... ok
+test_case3 (__main__.count_code_test) ... ok
 
-
-Ran 2 tests in 0.000s
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
 
 OK
 nithya@VVDN:~/pythontraining/chapter10/src$ 
@@ -48,14 +49,16 @@ output
 
 ----
 nithya@VVDN:~/pythontraining/chapter10/src$ python double_char_unittest.py -v
-enter your string:codesdfcore
-ccooddeessddffccoorree
-test_fail (__main__.double_chartest) ... ok
-test_pass (__main__.double_chartest) ... ok
+enter your string:python
+ppyytthhoonn
+test_letter (__main__.double_chartest) ... ok
+test_number (__main__.double_chartest) ... ok
+test_spl_symbol (__main__.double_chartest) ... ok
 
-
-Ran 2 tests in 0.000s
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
 
 OK
 nithya@VVDN:~/pythontraining/chapter10/src$ 
 ----
+
