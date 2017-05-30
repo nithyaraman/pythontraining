@@ -1,0 +1,61 @@
+CHAPTER10
+=========
+
+1.count_code_unittest.py 
+------------------------
+
+----
+unittest for the program count_code
+----
+
+[source,python]
+----
+include::../src/count_code_unittest.py[] 
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter10/src$ python count_code_unittest.py -v
+enter string:python
+number of sub string is 0
+test_fail (__main__.count_code_test) ... ok
+test_pass (__main__.count_code_test) ... ok
+
+
+Ran 2 tests in 0.000s
+
+OK
+nithya@VVDN:~/pythontraining/chapter10/src$ 
+----
+
+
+2.double_char_unittest.py
+-------------------------
+
+----
+unittest for th program double_char
+----
+
+[source,python]
+----
+include::../src/double_char_unittest.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter10/src$ python double_char_unittest.py -v
+enter your string:codesdfcore
+ccooddeessddffccoorree
+test_fail (__main__.double_chartest) ... ok
+test_pass (__main__.double_chartest) ... ok
+
+
+Ran 2 tests in 0.000s
+
+OK
+nithya@VVDN:~/pythontraining/chapter10/src$ 
+----
