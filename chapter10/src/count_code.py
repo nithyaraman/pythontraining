@@ -23,4 +23,4 @@ def find_word(str1):
 str1 = raw_input("enter string:")
 count = find_word(str1)
 
-print "number of sub string is", count
+print count
