@@ -1,2 +1,64 @@
 CHAPTER5
 ========
+
+1.count_line.py
+---------------
+
+----
+coutn number of lines,words and letters in a file
+----
+
+[source,python]
+----
+include::../src/count_line.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter5/src$ python count_line.py 
+enter number of lines
+>3
+i
+like
+python
+number of line is : 3
+number of words in file: 3
+number of letters in file: 11
+nithya@VVDN:~/pythontraining/chapter5/src$ 
+----
+
+2.kernal_log.py
+---------------
+
+----
+collect kernal log in a file with date and time.
+----
+
+[source,python]
+----
+include::../src/kernal_log.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter5/src$python kernal_log.py 
+nithya@VVDN:~/pythontraining/chapter5/src$ ls
+count_line.py  count.py  filesdir  kernal_log.py  log-20170524-122612.log  newfile.txt  plot_graph.py
+nithya@VVDN:~/pythontraining/chapter5/src$ 
+----
+
+3.plot_graph.py
+---------------
+
+----
+open a directory and count number of lines in all file ,then plot graph between file vs lines
+----
+
+[source,python]
+----
+include::../src/plot_graph.py[]
+----

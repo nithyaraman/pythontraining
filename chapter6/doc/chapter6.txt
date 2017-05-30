@@ -1,2 +1,72 @@
 CHAPTER6
 ========
+
+1.divide_100.py
+---------------
+
+----
+need to print 'can not divide' if 100 is divided by 0.
+----
+
+[source,python]
+----
+include::../src/divide_100.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter6/src$ python divide_100.py 
+division
+enter numerator:100
+enter denominator:0
+can not divide
+nithya@VVDN:~/pythontraining/chapter6/src$ 
+----
+
+2.invalide_key.py
+-----------------
+
+----
+need to print invalid key if enter the key which is not in the dictionary.
+----
+
+[source,python]
+----
+include::../src/invalide_key.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter6/src$ python invalide_key.py 
+enter key : 'os'
+linux
+nithya@VVDN:~/pythontraining/chapter6/src$ python invalide_key.py 
+enter key : 1
+invalid key!
+nithya@VVDN:~/pythontraining/chapter6/src$ 
+----
+
+3.module_exception.py
+---------------------
+
+----
+need to throw a message 'module not install' if module is not there in the system.
+----
+
+[source,python]
+----
+include::../src/module_exception.py[]
+----
+
+output
+~~~~~~
+
+----
+nithya@VVDN:~/pythontraining/chapter6/src$ python module_exception.py 
+Module not installed
+nithya@VVDN:~/pythontraining/chapter6/src$ 
+----

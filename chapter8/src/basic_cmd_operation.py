@@ -25,6 +25,3 @@ if num is 1:
 
 if num is 2:
     countargv()
-
-if num is not 1 or 2:
-    print "invalid option"
