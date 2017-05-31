@@ -17,6 +17,8 @@ def find_word(str1):
                 count += 1
                 place += rv + 1
                 i += 1
+            else:
+              break               
     return count
 
 
