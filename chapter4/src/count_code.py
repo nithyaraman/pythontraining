@@ -18,7 +18,10 @@ def find_word(str1):
                 place += rv + 1
                 i += 1
             else:
-              break               
+              place=rv+1
+              rv=str1.find("c",place,len(str1)) 
+            if rv is -1:
+                break
     return count
 
 
